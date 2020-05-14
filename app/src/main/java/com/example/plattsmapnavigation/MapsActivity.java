@@ -89,9 +89,126 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private static final LatLng LectureHallHawkins = new LatLng(44.6970, -73.4674);
 
     private static final LatLng ResidenceHallWhiteface = new LatLng(44.6916, -73.4680);
+<<<<<<< Updated upstream
 
 
 
+||||||| merged common ancestors
+    private static final LatLng ResidenceHallKent = new LatLng(44.6909, -73.4670);
+    private static final LatLng ResidenceHallMacomb = new LatLng(44.69113, -73.4668);
+    private static final LatLng ResidenceHallHarrington = new LatLng(44.693629, -73.463586);
+    private static final LatLng ResidenceHallMacdonough = new LatLng(44.693796, -73.462512);
+    private static final LatLng ResidenceHallMason = new LatLng(44.690502, -73.467837);
+    private static final LatLng ResidenceHallHood = new LatLng(44.690517, -73.468396);
+    private static final LatLng ResidenceHalldeFredenburgh = new LatLng(44.690059, -73.468567);
+    private static final LatLng ResidenceHallMoffitt = new LatLng(44.689510, -73.468353);
+    private static final LatLng ResidenceHallWilson = new LatLng(44.689388, -73.467751);
+    private static final LatLng ResidenceHallAdirondack = new LatLng(44.691356, -73.469018);
+    private static final LatLng ResidenceHallBanks = new LatLng(44.692103, -73.468932);
+
+    private static final LatLng DiningHallClinton = new LatLng(44.68981, -73.46813);
+    private static final LatLng DiningHallAlgonquin = new LatLng(44.691356, -73.468396);
+
+    private static final LatLng ServiceAreaKehoe = new LatLng(44.6943, -73.46622);
+    private static final LatLng ServiceAreaPoliceHealth = new LatLng(44.691707, -73.465561);
+    private static final LatLng ServiceAreaAngel = new LatLng(44.692713, -73.466463);
+    private static final LatLng ServiceAreaLibrary = new LatLng(44.693476, -73.467362);
+    private static final LatLng ServiceAreaArt = new LatLng(44.693568, -73.465966);
+
+
+
+    private Marker mParkingWhiteface;
+    private Marker mParkingAusable;
+    private Marker mLectureHallAusable;
+    private Marker mLectureHallChamplain;
+    private Marker mLectureHallSaranac;
+    private Marker mLectureHallYokum;
+    private Marker mLectureHallBeaumont;
+    private Marker mLectureHallMemorial;
+    private Marker mLectureHallSibley;
+    private Marker mLectureHallRedcay;
+    private Marker mLectureHallWard;
+    private Marker mLectureHallHawkins;
+    private Marker mLectureHallHudson;
+    private Marker mResidenceHallWhiteface;
+    private Marker mResidenceHallKent;
+    private Marker mResidenceHallMacomb;
+    private Marker mDiningHallClinton;
+    private Marker mDiningHallAlgonquin;
+    private Marker mServiceAreaKehoe;
+    private Marker mServiceAreaAngel;
+    private Marker mServiceAreaArt;
+    private Marker mServiceAreaLibrary;
+    private Marker mServiceAreaPoliceHealth;
+    private Marker mResidenceHallHarrington;
+    private Marker mResidenceHallMacdonough;
+    private Marker mResidenceHallMason;
+    private Marker mResidenceHallHood;
+    private Marker mResidenceHalldeFredenburgh;
+    private Marker mResidenceHallMoffitt;
+    private Marker mResidenceHallWilson;
+    private Marker mResidenceHallAdirondack;
+    private Marker mResidenceHallBanks;
+=======
+    private static final LatLng ResidenceHallKent = new LatLng(44.6909, -73.4670);
+    private static final LatLng ResidenceHallMacomb = new LatLng(44.69113, -73.4668);
+    private static final LatLng ResidenceHallHarrington = new LatLng(44.693629, -73.463586);
+    private static final LatLng ResidenceHallMacdonough = new LatLng(44.693796, -73.462512);
+    private static final LatLng ResidenceHallMason = new LatLng(44.690502, -73.467837);
+    private static final LatLng ResidenceHallHood = new LatLng(44.690517, -73.468396);
+    private static final LatLng ResidenceHalldeFredenburgh = new LatLng(44.690059, -73.468567);
+    private static final LatLng ResidenceHallMoffitt = new LatLng(44.689510, -73.468353);
+    private static final LatLng ResidenceHallWilson = new LatLng(44.689388, -73.467751);
+    private static final LatLng ResidenceHallAdirondack = new LatLng(44.691356, -73.469018);
+    private static final LatLng ResidenceHallBanks = new LatLng(44.692103, -73.468932);
+
+    private static final LatLng DiningHallClinton = new LatLng(44.68981, -73.46813);
+    private static final LatLng DiningHallAlgonquin = new LatLng(44.691356, -73.468396);
+
+    private static final LatLng ServiceAreaKehoe = new LatLng(44.6943, -73.46622);
+    private static final LatLng ServiceAreaPoliceHealth = new LatLng(44.691707, -73.465561);
+    private static final LatLng ServiceAreaAngel = new LatLng(44.692713, -73.466463);
+    private static final LatLng ServiceAreaLibrary = new LatLng(44.693476, -73.467362);
+    private static final LatLng ServiceAreaArt = new LatLng(44.693568, -73.465966);
+
+
+
+<<<<<<< HEAD
+    private Marker mParkingWhiteface;
+    private Marker mParkingAusable;
+    private Marker mLectureHallAusable;
+    private Marker mLectureHallChamplain;
+    private Marker mLectureHallSaranac;
+    private Marker mLectureHallYokum;
+    private Marker mLectureHallBeaumont;
+    private Marker mLectureHallMemorial;
+    private Marker mLectureHallSibley;
+    private Marker mLectureHallRedcay;
+    private Marker mLectureHallWard;
+    private Marker mLectureHallHawkins;
+    private Marker mLectureHallHudson;
+    private Marker mResidenceHallWhiteface;
+    private Marker mResidenceHallKent;
+    private Marker mResidenceHallMacomb;
+    private Marker mDiningHallClinton;
+    private Marker mDiningHallAlgonquin;
+    private Marker mServiceAreaKehoe;
+    private Marker mServiceAreaAngel;
+    private Marker mServiceAreaArt;
+    private Marker mServiceAreaLibrary;
+    private Marker mServiceAreaPoliceHealth;
+    private Marker mResidenceHallHarrington;
+    private Marker mResidenceHallMacdonough;
+    private Marker mResidenceHallMason;
+    private Marker mResidenceHallHood;
+    private Marker mResidenceHalldeFredenburgh;
+    private Marker mResidenceHallMoffitt;
+    private Marker mResidenceHallWilson;
+    private Marker mResidenceHallAdirondack;
+    private Marker mResidenceHallBanks;
+=======
+>>>>>>> fa90837667f42180db093ca9096b93cfad0b4506
+>>>>>>> Stashed changes
 
 
 
